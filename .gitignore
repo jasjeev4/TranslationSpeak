@@ -1,0 +1,68 @@
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Logs
+*.log
+
+# Build results
+bin/
+obj/
+
+# Maui specific folders
+.platforms/
+Resources/Raw/
+Resources/AppIcon
+Resources/LaunchScreen
+
+# Visual Studio Code
+.vscode/
+
+# Visual Studio
+.vs/
+*.sln.docstates
+
+# Packages
+*.nupkg
+*.snupkg
+packages/
+.vscode/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# macOS files
+.DS_Store
+
+# Thumbnails
+Thumbs.db
+
+# Windows image file caches
+ehthumbs.db
+
+# Mono auto generated files
+mono_crash.*
+
+# Symbols
+*.mdb
+*.pdb
+
+# Rider project files
+.idea/
+*.sln.iml
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# TFS files
+*.tfstate
+
+# Generated files
+*.generated.cs
