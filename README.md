@@ -32,9 +32,9 @@ TranslationSpeak is an iOS application built using .NET MAUI. It provides a seam
   
   `dotnet build`
   
-4. Run the application on your desired platform:
+4. Run the application on the iOS simulator :
   
-  `dotnet run --framework <TargetFramework>`
+  `dotnet build -t:Run -f net9.0-ios`
   
 
 ## Environment Configuration
