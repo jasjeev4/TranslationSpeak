@@ -6,7 +6,7 @@ TranslationSpeak is an iOS application built using .NET MAUI. It provides a seam
 
 ## Screenshots/Demo
 
-Link to demo: [https://youtube.com/shorts/RyH_AI4XO60](https://youtube.com/shorts/RyH_AI4XO60)
+Link to demo: [https://youtube.com/shorts/CNMHPpsbRP8](https://youtube.com/shorts/CNMHPpsbRP8)
 
 ## Installation
 
