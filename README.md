@@ -1,8 +1,8 @@
-# InstantTranslator
+## TranslationSpeak
 
 ## Description
 
-InstantTranslator is an iOS application built using .NET MAUI. It provides a seamless interface to record speech, transcribe it in real-time, and translate the text playback a speech audio file of the translated text using a Lambda service. The app is designed to be easy to use.
+TranslationSpeak is an iOS application built using .NET MAUI. It provides a seamless interface to record speech, transcribe it in real-time, and translate the text playback a speech audio file of the translated text using a Lambda service. The app is designed to be easy to use.
 
 ## Screenshots/Demo
 
@@ -10,29 +10,32 @@ InstantTranslator is an iOS application built using .NET MAUI. It provides a sea
 
 ### Prerequisites
 
-- [.NET MAUI](https://dotnet.microsoft.com/apps/maui)  (Minimum version: 9.0)
+- [.NET MAUI](https://dotnet.microsoft.com/apps/maui) (Minimum version: 9.0)
 - Visual Studio with MAUI workload installed.
 - Platforms supported: iOS.
 
 ### Steps
 
-* Note: See environment variable configuration steps below 
+- Note: See environment variable configuration steps below
+  
+
 1. Clone the repository:
-   
-   `git clone https://github.com/jasjeev4/InstantTranslator.git
-   cd MyMauiApp` 
-
+  
+  `git clone https://github.com/jasjeev4/InstantTranslator.git
+  cd MyMauiApp`
+  
 2. Restore dependencies:
-   
-   `dotnet restore` 
-
+  
+  `dotnet restore`
+  
 3. Build the project:
-   
-   `dotnet build` 
-
+  
+  `dotnet build`
+  
 4. Run the application on your desired platform:
-   
-   `dotnet run --framework <TargetFramework>` 
+  
+  `dotnet run --framework <TargetFramework>`
+  
 
 ## Environment Configuration
 
@@ -43,7 +46,7 @@ To use the app, you need to configure the following environment variable:
 You need to configure the `Info.plist` file as follows:
 
 - **Locate the `Info.plist` file**: Navigate to the `Platforms/iOS/Info.plist` file in your project.
-
+  
 - **Add the API Key**: Add the following key-value pair to the `Info.plist` file:
   
   xml
@@ -51,15 +54,14 @@ You need to configure the `Info.plist` file as follows:
   Copy code
   
   `<key>TRANSLATION_API_KEY</key> <string>your_api_key</string>`
-
+  
 - **Save the File**: After adding the key-value pair, save the `Info.plist` file.
-
-# 
+  
 
 ## Usage
 
 1. Launch the app on your device or emulator.
-2. Tap the  **Start Recording**  button to begin capturing audio.
+2. Tap the **Start Recording** button to begin capturing audio.
 3. Speak into the microphone; the transcription will appear on the screen in real-time.
 4. Stop recording by tapping the button again.
 5. The app processes the transcription and generates a translated audio file.
@@ -84,9 +86,9 @@ You need to configure the `Info.plist` file as follows:
 Contributions are welcome! Please:
 
 1. Fork the repository.
-2. Create a feature branch:  `git checkout -b feature/your-feature`.
-3. Commit changes:  `git commit -m 'Add your feature'`.
-4. Push to the branch:  `git push origin feature/your-feature`.
+2. Create a feature branch: `git checkout -b feature/your-feature`.
+3. Commit changes: `git commit -m 'Add your feature'`.
+4. Push to the branch: `git push origin feature/your-feature`.
 5. Open a pull request.
 
 ## Known Issues
@@ -103,12 +105,13 @@ Contributions are welcome! Please:
 ## Testing
 
 1. Run the test suite:
-   
-   `dotnet test` 
-
+  
+  `dotnet test`
+  
 2. View test coverage reports:
-   
-   `dotnet test --collect:"XPlat Code Coverage"` 
+  
+  `dotnet test --collect:"XPlat Code Coverage"`
+  
 
 ## References/Documentation
 
